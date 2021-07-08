@@ -1,0 +1,58 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Buy an article successfully",
+        "description": "",
+        "id": "login;buy-an-article-successfully",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6117442400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Go to the website",
+            "match": {
+              "location": "Weekend.go_to_the_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3328595700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter the name of the destination",
+            "match": {
+              "location": "Weekend.enter_the_name_of_the_destination()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2396401700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click on View Deal",
+            "match": {
+              "location": "Weekend.click_on_View_Deal()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "Navigate to a Weekend Trivago and View deals",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "Trivago.feature"
+  }
+]
